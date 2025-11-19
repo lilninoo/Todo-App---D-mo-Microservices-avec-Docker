@@ -2,7 +2,7 @@
 
 Application de gestion de tâches en architecture microservices, parfaite pour une démonstration Docker et Docker Compose.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────┐
@@ -32,7 +32,7 @@ Application de gestion de tâches en architecture microservices, parfaite pour u
         └─────────────┘
 ```
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 microservices-todo-app/
@@ -62,7 +62,7 @@ microservices-todo-app/
         └── index.css
 ```
 
-## 🚀 Démarrage rapide
+## Démarrage rapide
 
 ### Prérequis
 - Docker Desktop installé
@@ -84,7 +84,7 @@ docker-compose up --build
 - Task Service : http://localhost:3002
 - MongoDB : localhost:27017
 
-## 🎯 Commandes Docker utiles
+## Commandes Docker utiles
 
 ### Gestion des conteneurs
 ```bash
@@ -119,7 +119,7 @@ docker-compose down -v
 docker system prune -a
 ```
 
-## 🔍 Tests des API
+## Tests des API
 
 ### User Service
 ```bash
@@ -195,7 +195,7 @@ docker-compose logs -f --tail=100
 docker network inspect microservices-todo-app_todo-network
 ```
 
-## 🎨 Fonctionnalités de l'interface
+## Fonctionnalités de l'interface
 
 - ✅ Créer et gérer des utilisateurs
 - ✅ Créer des tâches pour chaque utilisateur
@@ -225,7 +225,7 @@ docker network inspect microservices-todo-app_todo-network
 7. Montrer que l'app continue à fonctionner partiellement
 8. Redémarrer : `docker-compose start task-service`
 
-## 🔐 Credentials MongoDB
+## Credentials MongoDB
 
 - Username: `admin`
 - Password: `password123`
