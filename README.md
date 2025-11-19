@@ -1,4 +1,4 @@
-# 📋 Todo App - Démo Microservices avec Docker
+# Todo App - Démo Microservices avec Docker
 
 Application de gestion de tâches en architecture microservices, parfaite pour une démonstration Docker et Docker Compose.
 
@@ -151,7 +151,7 @@ curl -X PUT http://localhost:3000/api/tasks/TASK_ID \
   -d '{"completed":true}'
 ```
 
-## 📊 Points de démonstration Docker
+## Points de démonstration Docker
 
 ### 1. **Isolation des services**
 Chaque microservice tourne dans son propre conteneur, isolé des autres.
@@ -204,7 +204,7 @@ docker network inspect microservices-todo-app_todo-network
 - ✅ Interface responsive et moderne
 - ✅ Affichage de l'architecture en footer
 
-## 📝 Pour votre présentation
+## Pour votre présentation
 
 ### Points clés à mentionner :
 
